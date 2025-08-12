@@ -33,3 +33,7 @@
 - CSS3 para el diseño y estilo responsive.
 
 - JavaScript para la validación e interactividad.
+
+## **Enlace al sitio desplegado:**
+
+https://paulamedrano1.github.io/Portfolio-Paula-Medrano/
