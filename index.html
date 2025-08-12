@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paula Medrano - Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-cabecera">
+                <div class="logo">Mi Portfolio</div>
+                <i class="fas fa-bars menu-toggle-btn"></i> <!-- Icono hamburguesa -->
+            </div>
+            <div class="enlaces-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobreMi">Sobre Mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-contenido">
+            <div class="hero-texto">
+                <h1>Hola, soy <span style="color: var(--secondary);">Paula Medrano</span></h1>
+                <h2 class="d-inline-flex align-items-center mb-3">
+                    <span class="me-2">Desarrolladora</span>
+                    <img src="Images/logo1.png" class="img-logo" alt="Logo de desarrolladora">
+                </h2>
+                <p>Enfocada en crear soluciones web elegantes. Apasionada por el código limpio y las experiencias de
+                    usuario intuitivas.</p>
+                <div>
+                    <a href="#proyectos" class="btn">Ver Proyectos</a>
+                    <a href="#contacto" class="btn btn-esquema">Contáctame</a>
+                </div>
+            </div>
+            <div class="hero-imagen">
+                <img src="Images/imgper.png" alt="Rostro de Paula Medrano" class="img-fluid" />
+            </div>
+        </div>
+    </section>
+
+
+    <main class="contenedor-principal">
+
+        <section class="sobre-mi" id="sobreMi">
+            <div class="seccion-titulo">
+                <h2>Sobre Mí</h2>
+                <p>Desarrolladora en formación con experiencia en soporte técnico y administración de sistemas. Poseo
+                    habilidades demostradas en la gestión integral de infraestructura IT, soporte a usuarios,
+                    mantenimiento de hardware y software, así como en la administración de plataformas digitales. Estoy
+                    motivada para aplicar mis conocimientos y proactividad en un entorno profesional, con el objetivo de
+                    crecer y desarrollarme en el área de soporte técnico IT.</p>
+            </div>
+        </section>
+
+        <section class="experiencia py-5" id="experiencia">
+            <div class="container">
+                <h2 class="seccion-titulo text-center mb-5">Experiencia Laboral</h2>
+
+                <div class="experiencia-item p-4 mb-4 rounded shadow-sm">
+                    <h3 class="experiencia-puesto">Soporte Técnico y Administrativo</h3>
+                    <p class="experiencia-empresa">Rafaela Motores SA</p>
+                    <p class="experiencia-fechas">Julio 2024 - Julio 2025</p>
+                    <p class="experiencia-descripcion">Brindé soporte técnico integral en hardware, software, redes y
+                        servidores, así como mantenimiento y configuración de equipos. Administré sistemas, cuentas de
+                        usuario, correos, carpetas compartidas, backups y el sistema de gestión TANGO, además de
+                        capacitar al personal en herramientas informáticas. También coordiné proveedores, controlé stock
+                        de insumos y equipos, gestioné trámites con empresas de servicios y colaboré en el inventario y
+                        control de licencias de software.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="habilidades" class="seccion habilidades">
+            <h2 class="habilidades-titulo">Habilidades</h2>
+            <div class="habilidades-contenedor">
+                <div class="habilidad-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="habilidad-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="habilidad-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="habilidad-item">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="habilidad-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="habilidad-item">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="habilidad-item">
+                    <i class="fa-brands fa-microsoft"></i>
+                    <span>C#</span>
+                </div>
+                <div class="habilidad-item">
+                    <i class="fa-solid fa-desktop"></i>
+                    <span>Winforms</span>
+                </div>
+                <div class="habilidad-item">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyectos" id="proyectos">
+            <div class="proyectos-contenedor">
+                <div class="seccion-titulo">
+                    <h2>Mis Proyectos</h2>
+                    <p>Algunos de mis trabajos más recientes:</p>
+                </div>
+                <div class="proyectos-cuadricula">
+                    <div class="proyecto-tarjeta">
+                        <div class="proyecto-imagen">
+                            <img src="Images/card3.png" alt="menu" />
+                        </div>
+                        <div class="proyecto-info">
+                            <h3>Menú Digital</h3>
+                            <p>Simple página web que muestra el menú disponible de una pastelería.</p>
+                            <div class="proyecto-etiquetas">
+                                <span class="proyecto-etiqueta">HTML</span>
+                                <span class="proyecto-etiqueta">CSS</span>
+                            </div>
+                            <a href="https://paulamedrano1.github.io/MenuDigital/" target="_blank" class="btn">Ver
+                                Detalles</a>
+                        </div>
+                    </div>
+                    <div class="proyecto-tarjeta">
+                        <div class="proyecto-imagen">
+                            <img src="Images/card4.png" alt="Tienda online elegante" />
+                        </div>
+                        <div class="proyecto-info">
+                            <h3>Layout</h3>
+                            <p>Layout de estilo directo creado con flexbox. Diseño que se adapta a todas las pantallas.
+                            </p>
+                            <div class="proyecto-etiquetas">
+                                <span class="proyecto-etiqueta">HTML</span>
+                                <span class="proyecto-etiqueta">CSS</span>
+                            </div>
+                            <a href="https://paulamedrano1.github.io/Layout/" target="_blank" class="btn">Ver
+                                Detalles</a>
+                        </div>
+                    </div>
+                    <div class="proyecto-tarjeta">
+                        <div class="proyecto-imagen">
+                            <img src="Images/tarjeta.png" alt="Aplicación móvil de seguimiento de hábitos" />
+                        </div>
+                        <div class="proyecto-info">
+                            <h3>Tarjeta de Presentación</h3>
+                            <p>Tarjeta de presentación digital para compartir información de contacto de forma
+                                interactiva.</p>
+                            <div class="proyecto-etiquetas">
+                                <span class="proyecto-etiqueta">HTML</span>
+                                <span class="proyecto-etiqueta">CSS</span>
+                            </div>
+                            <a href="https://paulamedrano1.github.io/TarjetaPersonal/" target="_blank" class="btn">Ver
+                                Detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <div class="seccion-titulo">
+                <h2>Contacto</h2>
+                <p>Si quieres conectarte conmigo, no dudes en enviarme un mensaje.</p>
+            </div>
+            <div class="contacto-formulario">
+                <form id="formulario-contacto">
+                    <div class="grupo-formulario">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="nombre" class="control-formulario" required>
+                        <div class="mensaje-error" id="error-nombre">Por favor ingresa tu nombre</div>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="correo" class="control-formulario" required>
+                        <div class="mensaje-error" id="error-correo">Por favor ingresa un correo válido</div>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="message">Mensaje</label>
+                        <textarea id="mensaje" class="control-formulario" required></textarea>
+                        <div class="mensaje-error" id="error-mensaje">Por favor escribe tu mensaje</div>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                    <div class="mensaje-exito" id="mensaje-exito">
+                        ¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="enlaces-sociales">
+            <a href="https://github.com/paulamedrano1" target="_blank" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/paula-medrano-072043376/" target="_blank"
+                aria-label="LinkedIn">LinkedIn</a>
+            <a href="Curriculum.pdf" target="_blank" aria-label="Descargar CV">Curriculum Vitae</a>
+        </div>
+        <p>&copy; 2025 - Paula Medrano</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
